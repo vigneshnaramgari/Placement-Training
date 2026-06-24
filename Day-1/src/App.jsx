@@ -1,0 +1,28 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Features from "./components/Features";
+import Integrations from "./components/Integrations";
+import CTA from "./components/CTA";
+import Footer from "./components/Footer";
+
+function App() {
+  return (
+    <div className="py-10">
+      <div className="max-w-7xl mx-auto bg-white rounded-3xl overflow-hidden container-card">
+        <Navbar />
+
+        <Hero />
+
+        <Features />
+
+        <Integrations />
+
+        <CTA />
+
+        <Footer />
+      </div>
+    </div>
+  );
+}
+
+export default App;
